@@ -1,0 +1,14 @@
+body {
+  font-family: 'Comfortaa', cursive;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 25px;
+}
+p {
+  text-align: center;
+}
+.form-control {
+  margin-bottom: 25px;
+}
