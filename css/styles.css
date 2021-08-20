@@ -1,14 +1,19 @@
 body {
+  height: max-content;
+  background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
   font-family: 'Comfortaa', cursive;
   text-align: center;
+  height: max-content;
 }
 
+.card {
+  display: none;
+}
 h1 {
-  text-align: center;
   margin-top: 25px;
 }
-p {
-  text-align: center;
+h3 {
+  text-decoration: underline;
 }
 .form-control {
   margin-bottom: 25px;
@@ -18,9 +23,15 @@ p {
   margin-top: 25px;
   border: 6px solid skyblue;
   padding: 12px;
-}
-
-.card h3 {
-  text-align: center;
-
+  box-shadow:
+  0 1.6px 1.2px rgba(0, 0, 0, 0.063),
+  0 3.4px 2.7px rgba(0, 0, 0, 0.093),
+  0 5.8px 4.6px rgba(0, 0, 0, 0.115),
+  0 8.7px 6.9px rgba(0, 0, 0, 0.133),
+  0 12.5px 10px rgba(0, 0, 0, 0.15),
+  0 17.7px 14.2px rgba(0, 0, 0, 0.167),
+  0 25.1px 20.1px rgba(0, 0, 0, 0.185),
+  0 36.5px 29.2px rgba(0, 0, 0, 0.207),
+  0 56.3px 45px rgba(0, 0, 0, 0.237),
+  0 100px 80px rgba(0, 0, 0, 0.3);
 }

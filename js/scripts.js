@@ -1,6 +1,6 @@
 function roboger(input) {
   let range = [];
-  for (i = 0; i <= input; i++) {
+  for (let i = 0; i <= input; i++) {
     range.push([i].toString()); {
       if ([i].toString().includes("3")) {
         range.splice(i, 3, "Won't you be my neighbor?") 
@@ -21,6 +21,6 @@ $(document).ready(function() {
     event.preventDefault();
     let range = roboger($(".form-control").val());
     $(".result").text(range);
-    
+    $(".card").show();
   });
 });
