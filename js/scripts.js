@@ -21,5 +21,6 @@ $(document).ready(function() {
     event.preventDefault();
     let range = roboger($(".form-control").val());
     $(".result").text(range);
+    
   });
 });
