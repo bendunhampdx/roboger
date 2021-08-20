@@ -9,6 +9,11 @@ body {
 .card {
   display: none;
 }
+.card img {
+  width: 15%;
+  float: right;
+
+}
 h1 {
   margin-top: 25px;
 }
