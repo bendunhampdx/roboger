@@ -39,8 +39,21 @@ _{Let people know what to do if they run into any issues or have questions, idea
 _{Add your contact information here.}_
 
 ## Tests
-
+``` javascript
 Describe: roboger()
 Test: It will take a number inputted by user and return it as a range
-Code: roboger("5")
+Code: roboger("10")
 Expected Output: "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"
+
+Test: When a user enters a 3 it will be replaced with "Won't you be my neighbor"
+Code: roboger("3")
+Expected Output: "Won't you be my neighbor"
+
+Test: When a user enters a 2 it will be replaced with "Boop"
+Code: roboger("2")
+Expected Output: "Boop"
+
+Test: When a user enters a 1 it will be replaced with "Beep"
+Code: roboger("1")
+Expected Output: "Beep"
+```
