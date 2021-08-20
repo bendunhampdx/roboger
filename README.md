@@ -40,3 +40,7 @@ _{Add your contact information here.}_
 
 ## Tests
 
+Describe: roboger()
+Test: It will take a number inputted by user and return it as a range
+Code: roboger("5")
+Expected Output: "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"
