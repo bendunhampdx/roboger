@@ -1,8 +1,7 @@
 function roboger(input) {
-  // let number = $("#userInput").val();
   let range = [];
-  for (let i = 1; i <= input; i++) {
-    range.push(i);
+  for (i = 1; i <= input; i++) {
+    range.push([i].toString());
   };
   console.log("are we here??");
   return range;
@@ -12,7 +11,7 @@ function roboger(input) {
 $(document).ready(function() {
   $("#number").submit(function(event) {
     event.preventDefault();
-    
-    $("#output").append(range[i]);
+    let range = roboger($(".form-control").val());
+    $(".result").text(range);
   });
 });

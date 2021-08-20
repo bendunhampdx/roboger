@@ -12,3 +12,14 @@ p {
 .form-control {
   margin-bottom: 25px;
 }
+
+.card {
+  margin-top: 25px;
+  border: 6px solid skyblue;
+  padding: 12px;
+}
+
+.card h3 {
+  text-align: center;
+
+}
