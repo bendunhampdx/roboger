@@ -11,9 +11,10 @@ function roboger(input) {
       } 
     }
   };
-  console.log("are we here??");
+  
   return range;
 };
+
 
 
 $(document).ready(function() {
@@ -21,6 +22,8 @@ $(document).ready(function() {
     event.preventDefault();
     let range = roboger($(".form-control").val());
     $(".result").text(range);
+    $(".result2").text(range.reverse());
     $(".card").show();
+    
   });
 });
