@@ -4,6 +4,8 @@ function roboger(input) {
     range.push([i].toString()); {
       if ([i].toString().includes("3")) {
         range.splice(i, 3, "Won't you be my neighbor?")
+      } else if ([i].toString().includes("2")) {
+        range.splice(i, 2, "Boop")
       }
     }
   };
