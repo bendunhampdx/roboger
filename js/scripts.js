@@ -1,7 +1,11 @@
 function roboger(input) {
   let range = [];
-  for (i = 1; i <= input; i++) {
-    range.push([i].toString());
+  for (i = 0; i <= input; i++) {
+    range.push([i].toString()); {
+      if ([i].toString().includes("3")) {
+        range.splice(i, 3, "Won't you be my neighbor?")
+      }
+    }
   };
   console.log("are we here??");
   return range;
